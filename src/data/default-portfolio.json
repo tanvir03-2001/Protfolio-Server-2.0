@@ -1,0 +1,383 @@
+{
+  "profile": {
+    "username": "tanvir",
+    "image": "",
+    "flipDelayMs": 4500,
+    "fields": {
+      "email": "tanvr03.2001@gmail.com",
+      "phone": "+88 018 45238826",
+      "location": "Dhaka, Bangladesh",
+      "focus": "UI, performance"
+    },
+    "stats": [
+      {
+        "value": "10+",
+        "label": "mini builds"
+      },
+      {
+        "value": "3+",
+        "label": "projects"
+      },
+      {
+        "value": "1",
+        "label": "portfolio"
+      }
+    ],
+    "techStack": [
+      {
+        "label": "Next.js",
+        "skill": "Next.js"
+      },
+      {
+        "label": "TypeScript",
+        "skill": "TypeScript"
+      },
+      {
+        "label": "Node.js",
+        "skill": "Node.js"
+      }
+    ]
+  },
+  "site": {
+    "name": "Tanvir Ahmed",
+    "role": "Full-Stack Developer",
+    "location": "Dhaka, Bangladesh",
+    "email": "tanvr03.2001@gmail.com",
+    "phone": "+88 018 45238826",
+    "resumeHref": "",
+    "headline": "I build end-to-end web applications UI, APIs, and databases with performance and clean UX in mind.",
+    "about": [
+      "I am a Full-Stack Developer in Dhaka, building end-to-end web apps with JavaScript, TypeScript, React, Next.js, Node.js, and MongoDB. I focus on clean UI, reliable APIs, and products that feel fast and easy to use.",
+      "I have delivered work such as the Luxxas E-commerce platform (frontend and backend) and I am open to freelance, internships, and full-time opportunities where I can grow while shipping useful software."
+    ],
+    "aboutHighlights": [
+      {
+        "title": "Backend Architecture",
+        "tags": [
+          "REST APIs",
+          "Express.js",
+          "JWT",
+          "Node.js"
+        ],
+        "icon": "backend"
+      },
+      {
+        "title": "Database Design",
+        "tags": [
+          "MongoDB",
+          "Mongoose",
+          "Data modeling"
+        ],
+        "icon": "database"
+      },
+      {
+        "title": "Full-Stack Capable",
+        "tags": [
+          "React",
+          "Next.js",
+          "TypeScript"
+        ],
+        "icon": "fullstack"
+      },
+      {
+        "title": "UI & Client Delivery",
+        "tags": [
+          "Tailwind CSS",
+          "Responsive UI",
+          "Luxxas E-commerce"
+        ],
+        "icon": "delivery"
+      }
+    ],
+    "socials": [
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com/"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/"
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "category": "Frontend",
+        "icon": "javascript"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Frontend",
+        "icon": "typescript"
+      },
+      {
+        "name": "HTML5",
+        "category": "Frontend",
+        "icon": "html5"
+      },
+      {
+        "name": "CSS3",
+        "category": "Frontend",
+        "icon": "css3"
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "Frontend",
+        "icon": "tailwind"
+      },
+      {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "react"
+      },
+      {
+        "name": "Redux",
+        "category": "Frontend",
+        "icon": "redux"
+      },
+      {
+        "name": "DaisyUI",
+        "category": "Frontend",
+        "icon": "daisyui"
+      },
+      {
+        "name": "Next.js",
+        "category": "Frontend",
+        "icon": "nextjs"
+      },
+      {
+        "name": "Next UI",
+        "category": "Frontend",
+        "icon": "nextui"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodejs"
+      },
+      {
+        "name": "Express.js",
+        "category": "Backend",
+        "icon": "express"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Backend",
+        "icon": "mongodb"
+      },
+      {
+        "name": "Mongoose",
+        "category": "Backend",
+        "icon": "mongoose"
+      },
+      {
+        "name": "REST API Development",
+        "category": "Backend",
+        "icon": "rest-api"
+      },
+      {
+        "name": "JWT Authentication",
+        "category": "Backend",
+        "icon": "jwt"
+      },
+      {
+        "name": "Git",
+        "category": "Tools",
+        "icon": "git"
+      },
+      {
+        "name": "GitHub",
+        "category": "Tools",
+        "icon": "github"
+      },
+      {
+        "name": "Postman",
+        "category": "Tools",
+        "icon": "postman"
+      },
+      {
+        "name": "Figma",
+        "category": "Tools",
+        "icon": "figma"
+      },
+      {
+        "name": "VS Code",
+        "category": "Tools",
+        "icon": "vscode"
+      },
+      {
+        "name": "NPM",
+        "category": "Tools",
+        "icon": "npm"
+      },
+      {
+        "name": "Yarn",
+        "category": "Tools",
+        "icon": "yarn"
+      },
+      {
+        "name": "Lucidchart",
+        "category": "Tools",
+        "icon": "lucidchart"
+      },
+      {
+        "name": "ChatGPT",
+        "category": "Tools",
+        "icon": "chatgpt"
+      },
+      {
+        "name": "CloudAI",
+        "category": "Tools",
+        "icon": "cloudai"
+      },
+      {
+        "name": "Teamwork",
+        "category": "Soft skills",
+        "icon": "teamwork"
+      },
+      {
+        "name": "Communication",
+        "category": "Soft skills",
+        "icon": "communication"
+      },
+      {
+        "name": "Problem-solving",
+        "category": "Soft skills",
+        "icon": "problem-solving"
+      },
+      {
+        "name": "Time Management",
+        "category": "Soft skills",
+        "icon": "time-management"
+      }
+    ],
+    "projects": [
+      {
+        "slug": "luxxas-ecommerce-frontend",
+        "title": "Luxxas E-commerce — Frontend (Client Project)",
+        "description": "A modern e-commerce frontend built with Next.js featuring responsive UI, product discovery, and real-time cart management for a seamless shopping experience.",
+        "fullDescription": "<h2>Overview</h2><p>Luxxas is a client e-commerce platform where I owned the frontend experience end to end — from product discovery to checkout-ready cart flows.</p><h2>What I built</h2><ul><li>Responsive storefront with category browsing and product detail pages</li><li>Cart and wishlist flows with optimistic UI updates</li><li>Reusable UI components styled with Tailwind CSS and Next UI</li><li>Data fetching and caching with TanStack Query</li></ul><h2>Outcome</h2><p>The result is a fast, mobile-friendly shopping experience that keeps navigation simple and product discovery clear for everyday users.</p>",
+        "image": "",
+        "images": [],
+        "details": [
+          {
+            "label": "Role",
+            "value": "Frontend Developer"
+          },
+          {
+            "label": "Client",
+            "value": "Luxxas"
+          },
+          {
+            "label": "Timeline",
+            "value": "2024"
+          },
+          {
+            "label": "Stack",
+            "value": "Next.js, TypeScript, Tailwind CSS, TanStack Query"
+          }
+        ],
+        "tags": [
+          "Next.js",
+          "Next UI",
+          "Tailwind CSS",
+          "TypeScript",
+          "TanStack Query"
+        ],
+        "links": []
+      },
+      {
+        "slug": "luxxas-ecommerce-backend",
+        "title": "Luxxas E-commerce — Backend (Client Project)",
+        "description": "Production-grade REST API powering catalog, cart, checkout, orders, and user management with JWT auth, OAuth, role-based access, and strong validation/security.",
+        "fullDescription": "<h2>Overview</h2><p>I built the backend API layer for Luxxas to support catalog management, cart/checkout, orders, and secure user accounts.</p><h2>Key features</h2><ul><li>REST API design with Express.js and TypeScript</li><li>JWT authentication with role-based access control</li><li>MongoDB data models with Mongoose</li><li>Input validation, file uploads, and email notifications</li></ul><h2>Security & reliability</h2><p>The API uses structured validation, protected routes, and clear error handling so the frontend can rely on predictable responses in production.</p>",
+        "image": "",
+        "images": [],
+        "details": [
+          {
+            "label": "Role",
+            "value": "Backend Developer"
+          },
+          {
+            "label": "Client",
+            "value": "Luxxas"
+          },
+          {
+            "label": "Timeline",
+            "value": "2024"
+          },
+          {
+            "label": "Stack",
+            "value": "Node.js, Express, MongoDB, JWT, Cloudinary"
+          }
+        ],
+        "tags": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "MongoDB",
+          "Mongoose",
+          "JWT",
+          "Passport",
+          "Zod",
+          "Multer",
+          "Cloudinary",
+          "Nodemailer"
+        ],
+        "links": []
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Next Level Web Development Course",
+        "issuer": "Programming Hero",
+        "status": "Completed",
+        "date": "August 2022"
+      },
+      {
+        "title": "Complete Web Development Course with Jhankar Mahbub",
+        "issuer": "Programming Hero",
+        "status": "Completed",
+        "date": "December 2025"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Business Administration (BBA)",
+        "institution": "Bangladesh Open University",
+        "date": "2023 – 2027",
+        "status": "Ongoing"
+      },
+      {
+        "degree": "Higher Secondary Certificate (HSC)",
+        "institution": "College Name",
+        "date": "2020",
+        "status": "Completed"
+      },
+      {
+        "degree": "Secondary School Certificate (SSC)",
+        "institution": "School Name",
+        "date": "2018",
+        "status": "Completed"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "level": "Comfortable"
+      },
+      {
+        "language": "Bangla",
+        "level": "Native"
+      },
+      {
+        "language": "Hindi",
+        "level": "Conversational"
+      }
+    ]
+  }
+}

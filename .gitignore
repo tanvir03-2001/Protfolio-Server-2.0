@@ -1,0 +1,4 @@
+node_modules/
+.env
+src/storage/admin-store.json
+src/storage/content-store.json
