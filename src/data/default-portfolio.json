@@ -48,7 +48,7 @@
     "headline": "I build end-to-end web applications UI, APIs, and databases with performance and clean UX in mind.",
     "about": [
       "I am a Full-Stack Developer in Dhaka, building end-to-end web apps with JavaScript, TypeScript, React, Next.js, Node.js, and MongoDB. I focus on clean UI, reliable APIs, and products that feel fast and easy to use.",
-      "I have delivered work such as the Luxxas E-commerce platform (frontend and backend) and I am open to freelance, internships, and full-time opportunities where I can grow while shipping useful software."
+      "I have delivered work such as the Luxxas E-commerce platform (frontend and backend) and SplasBD, a full-stack Bangladeshi e-commerce platform I built end to end. I am open to freelance, internships, and full-time opportunities where I can grow while shipping useful software."
     ],
     "aboutHighlights": [
       {
@@ -84,7 +84,8 @@
         "tags": [
           "Tailwind CSS",
           "Responsive UI",
-          "Luxxas E-commerce"
+          "Luxxas E-commerce",
+          "SplasBD"
         ],
         "icon": "delivery"
       }
@@ -329,6 +330,48 @@
           "Nodemailer"
         ],
         "links": []
+      },
+      {
+        "slug": "splasbd-full-stack-e-commerce-platform",
+        "title": "SplasBD — Full-Stack E-commerce Platform",
+        "description": "A production-ready Bangladesh-focused B2C e-commerce platform with Next.js storefront, Express API, admin panel, COD checkout, Steadfast shipping, promo codes, reviews, and SEO.",
+        "fullDescription": "<h2>Overview</h2><p><strong>SplasBD</strong> is a Bangladesh-centric full-stack e-commerce monorepo (<code>client/</code> + <code>server/</code>) where customers browse products, manage cart, checkout as guest or registered users, and track orders — while admins run the entire store from a dedicated dashboard.</p><h2>Customer Storefront</h2><ul><li>Homepage with hero carousel, category showcase, promo sections, and trust blocks</li><li>Product listing with filters (category, price, brand, rating, gender, size, color), sort, and pagination</li><li>Product detail pages with image gallery, size/color selection, size chart, and verified reviews</li><li>Search with autocomplete and trending queries</li><li>localStorage cart with Bangladeshi address (division, district, upazila)</li><li>Guest and authenticated checkout with promo codes and shipping charge calculation (COD)</li><li>Order confirmation, guest order lookup, and account linking on login</li><li>Email/password auth, Google OAuth, email verification, and password reset</li><li>Dynamic sitemap, robots.txt, and SSR product metadata for SEO</li></ul><h2>Admin Panel</h2><ul><li>Real-time dashboard with order polling and revenue stats</li><li>Product CRUD with up to 30 Cloudinary images, sizes, colors, stock, and slugs</li><li>Category and subcategory management with homepage display order</li><li>Order management with status workflow and Steadfast courier shipment</li><li>User and role management, banners, promo codes, and promotional sections</li><li>Shipping settings, size charts (BD/UK/US), analytics, and site settings</li><li>CMS editors for Terms, Privacy, and About pages (TipTap rich text)</li></ul><h2>Backend &amp; Architecture</h2><ul><li>Express 5 + TypeScript with 17 feature-based modules (auth, products, orders, cart, promos, reviews, search…)</li><li>MongoDB + Mongoose ODM with JWT access/refresh tokens (HTTP-only cookies)</li><li>Cloudinary image uploads, Gmail SMTP emails, Steadfast/Packzy courier API + webhooks</li><li>Security: Helmet, CORS, bcrypt password hashing, role-based access control</li><li>Deployed on Vercel (client + serverless API); Render config available for alternative hosting</li></ul>",
+        "image": "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352416/portfolio/projects/screenshot-2026-06-25-074256.png",
+        "images": [
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352423/portfolio/projects/product-detail.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352430/portfolio/projects/cart-checkout.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352442/portfolio/projects/dashboard.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352452/portfolio/projects/screenshot-2026-06-25-074854.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352463/portfolio/projects/screenshot-2026-06-25-074952.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352474/portfolio/projects/screencapture-splasbd-admin-products-6a2ebc43711a4664456d04bb-edit-2026-06-25-07_51_28.png",
+          "https://res.cloudinary.com/dlb79o5oh/image/upload/v1782352482/portfolio/projects/screencapture-splasbd-2026-06-25-07_52_14.png"
+        ],
+        "details": [
+          { "label": "Role", "value": "Full-Stack Developer" },
+          { "label": "Type", "value": "Personal Project" },
+          { "label": "Market", "value": "Bangladesh (BDT)" },
+          { "label": "Timeline", "value": "2025 – 2026" },
+          { "label": "Frontend", "value": "Next.js 16, React 19, Tailwind 4, shadcn/ui" },
+          { "label": "Backend", "value": "Express 5, MongoDB, JWT, Cloudinary, Steadfast" }
+        ],
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "JWT",
+          "E-commerce",
+          "Cloudinary",
+          "Steadfast"
+        ],
+        "links": [
+          { "label": "Live Store", "href": "https://splasbd.com" },
+          { "label": "API", "href": "https://splas-server.vercel.app" }
+        ]
       }
     ],
     "certifications": [
