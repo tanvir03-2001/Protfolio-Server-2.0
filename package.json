@@ -9,6 +9,7 @@
     "seed": "node src/seed.js",
     "add-splasbd": "node src/scripts/addSplasbdProject.js",
     "add-schdosocial": "node src/scripts/addSchdoSocialProject.js",
+    "add-panzo": "node src/scripts/addPanzoProject.js",
     "enrich-splasbd": "node src/scripts/enrichSplasbdProject.mjs"
   },
   "dependencies": {
