@@ -40,3 +40,18 @@ export function uploadToCloudinary(buffer, { folder = "misc", filename }) {
     stream.end(buffer);
   });
 }
+
+export function deleteFromCloudinary(publicId, resourceType = "image") {
+  const cloudinary = configureCloudinary();
+
+  return new Promise((resolve, reject) => {
+    cloudinary.uploader.destroy(
+      publicId,
+      { resource_type: resourceType, invalidate: true },
+      (error, result) => {
+        if (error) reject(error);
+        else resolve(result);
+      },
+    );
+  });
+}
