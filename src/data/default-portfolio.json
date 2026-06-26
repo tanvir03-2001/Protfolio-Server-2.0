@@ -15,7 +15,7 @@
         "label": "mini builds"
       },
       {
-        "value": "3+",
+        "value": "4+",
         "label": "projects"
       },
       {
@@ -48,7 +48,7 @@
     "headline": "I build end-to-end web applications UI, APIs, and databases with performance and clean UX in mind.",
     "about": [
       "I am a Full-Stack Developer in Dhaka, building end-to-end web apps with JavaScript, TypeScript, React, Next.js, Node.js, and MongoDB. I focus on clean UI, reliable APIs, and products that feel fast and easy to use.",
-      "I have delivered work such as the Luxxas E-commerce platform (frontend and backend) and SplasBD, a full-stack Bangladeshi e-commerce platform I built end to end. I am open to freelance, internships, and full-time opportunities where I can grow while shipping useful software."
+      "I have delivered work such as the Luxxas E-commerce platform (frontend and backend), SplasBD — a full-stack Bangladeshi e-commerce platform — and SchdoSocial, a Facebook Page post scheduling and auto-publishing SaaS I built end to end. I am open to freelance, internships, and full-time opportunities where I can grow while shipping useful software."
     ],
     "aboutHighlights": [
       {
@@ -85,7 +85,8 @@
           "Tailwind CSS",
           "Responsive UI",
           "Luxxas E-commerce",
-          "SplasBD"
+          "SplasBD",
+          "SchdoSocial"
         ],
         "icon": "delivery"
       }
@@ -371,6 +372,41 @@
         "links": [
           { "label": "Live Store", "href": "https://splasbd.com" },
           { "label": "API", "href": "https://splas-server.vercel.app" }
+        ]
+      },
+      {
+        "slug": "schdosocial-facebook-post-scheduling-platform",
+        "title": "SchdoSocial — Facebook Post Scheduling & Auto-Publishing SaaS",
+        "description": "A full-stack SaaS for Facebook Page managers to connect multiple Pages, compose posts, schedule recurring content, and auto-publish via Agenda job queue with real-time SSE notifications, admin panel, and Meta compliance.",
+        "fullDescription": "<h2>Overview</h2><p><strong>SchdoSocial</strong> (AutoPost) is a production full-stack SaaS monorepo (<code>Client/</code> + <code>Server/</code>) that solves manual Facebook Page posting for marketers and small businesses. Users connect Pages from one dashboard, compose and preview posts, schedule one-off or recurring content, and rely on background workers to publish automatically at the right time — with success/failure alerts in real time.</p><h2>Problem &amp; Solution</h2><ul><li>Manual posting across multiple Pages is time-consuming and error-prone</li><li>SchdoSocial centralizes Page management, media uploads, scheduling models, and automated publishing</li><li>Recurring scheduling rules (daily/weekly/monthly) with time windows and page staggering</li><li>Reliable publish pipeline with Agenda jobs + poll-worker fallback, atomic claims, and retry on failure</li></ul><h2>Client — Next.js 16 Dashboard</h2><ul><li>Landing page with SEO (sitemap, robots, Open Graph, JSON-LD FAQ schema) and blog content</li><li>Auth: email/password, Google OAuth, Facebook OAuth + separate Pages connect flow</li><li>Onboarding wizard guiding new users from Page connect to first scheduled post</li><li>Post composer: text, images/video, hashtags, place tags, post types (post/reel/image/story)</li><li>Calendar view for scheduled posts, scheduling models for recurring rules, activity log</li><li>Real-time notifications via Server-Sent Events (SSE)</li><li>Super-admin panel: users, posts, Pages, analytics, audit log, worker status, Cloudinary pools</li><li>English + Bengali i18n; legal pages (Privacy v1.1, Terms v1.1, data deletion for Meta review)</li></ul><h2>Server — Express 5 API</h2><ul><li>REST API at <code>/api/v1</code>: auth, facebook-pages, posts, uploads, notifications, scheduling-models, activity, legal, admin, health</li><li>MongoDB + Mongoose: users, authtokens, facebookconnections, facebookpages, posts, schedulingmodels, notifications, cloudinarypools, useractivitylogs</li><li>Passport (local, Google, Facebook) with JWT in HttpOnly cookies; automatic token refresh from Client</li><li>Cloudinary media (production) with admin-managed storage pools; local uploads in dev</li><li>Facebook Graph API integration with AES-256-GCM encrypted Page tokens</li><li>Security: Helmet, rate limiting (global/auth/password/upload), strict CORS, trust proxy for Coolify/nginx</li></ul><h2>Auto-Publishing Pipeline</h2><ul><li><strong>Primary:</strong> Agenda job queue schedules publish at <code>scheduledAt</code>; worker executes Facebook Graph publish</li><li><strong>Fallback:</strong> Poll worker every 15s with atomic <code>publishClaimedAt</code> claims — supports 500+ concurrent scheduled publishes</li><li>Same-page publish gap to respect rate limits; post lifecycle: draft → scheduled → published / failed (retry)</li><li>SSE hub pushes publish success/fail instantly; optional SMTP email notifications</li></ul><h2>Privacy &amp; Meta Compliance</h2><ul><li>Meta deauthorize + data-deletion signed_request callbacks</li><li>In-app Facebook data deletion and full account purge endpoints</li><li>Public legal pages indexed for Meta Platform review requirements</li></ul><h2>Deployment</h2><ul><li>Separate Client (port 3000) and Server (port 5000) apps on Coolify</li><li>Live at <a href=\"https://schdosocial.tech\">schdosocial.tech</a> with API at <code>server.schdosocial.tech</code></li></ul><h2>Outcomes</h2><ul><li>Eliminates manual daily posting; multi-Page management from one account</li><li>500+ concurrent scheduled publish support with claim + retry reliability</li><li>Full compliance stack: Privacy/Terms v1.1, Meta data deletion, SEO-ready public pages</li></ul>",
+        "image": "",
+        "images": [],
+        "details": [
+          { "label": "Role", "value": "Full-Stack Developer" },
+          { "label": "Type", "value": "Personal Project" },
+          { "label": "Timeline", "value": "2025 – 2026" },
+          { "label": "Frontend", "value": "Next.js 16, React 19, Tailwind 4, Radix UI, TanStack Query" },
+          { "label": "Backend", "value": "Express 5, MongoDB, Agenda, Facebook Graph API, Cloudinary" },
+          { "label": "Architecture", "value": "Separate Client + Server services, SSE, background worker" }
+        ],
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Passport",
+          "Facebook Graph API",
+          "Cloudinary",
+          "Agenda",
+          "SaaS",
+          "SSE"
+        ],
+        "links": [
+          { "label": "Live App", "href": "https://schdosocial.tech" },
+          { "label": "API", "href": "https://server.schdosocial.tech/api/v1/health" }
         ]
       }
     ],

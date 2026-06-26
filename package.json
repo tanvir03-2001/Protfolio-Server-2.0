@@ -8,6 +8,7 @@
     "start": "node src/index.js",
     "seed": "node src/seed.js",
     "add-splasbd": "node src/scripts/addSplasbdProject.js",
+    "add-schdosocial": "node src/scripts/addSchdoSocialProject.js",
     "enrich-splasbd": "node src/scripts/enrichSplasbdProject.mjs"
   },
   "dependencies": {
