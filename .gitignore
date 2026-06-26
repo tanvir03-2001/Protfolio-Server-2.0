@@ -4,3 +4,4 @@ src/storage/admin-store.json
 src/storage/content-store.json
 
 .vercel
+.env*.local
